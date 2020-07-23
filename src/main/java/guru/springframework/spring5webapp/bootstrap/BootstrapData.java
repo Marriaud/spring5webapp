@@ -40,7 +40,7 @@ public class BootstrapData implements CommandLineRunner {
         
         System.out.println("Books count = " + this.bookRepository.count());
         
-        final Publisher oreilly = new Publisher("Freedom Ave 55", "87711", "Garhill", "Insburrough");
+        final Publisher oreilly = new Publisher("O'reilly", "Freedom Ave 55", "87711", "Garhill", "Insburrough");
         
         publisherRepository.save(oreilly);
         
